@@ -1,0 +1,6 @@
+Echo menus compilation.... 
+ for %%f IN (*.mmb) do ( C:\Oracle\Middleware\Oracle_Home\bin\frmcmp.exe userid=atend/maluco@localpdb module=%%f batch=yes module_type=menu compile_all=yes window_state=minimize & ECHO %%f )
+ ECHO menus compilation finished ---
+ Echo forms compilation.... 
+ for %%f IN (*.fmb) do ( C:\Oracle\Middleware\Oracle_Home\bin\frmcmp.exe userid=atend/maluco@localpdb module=%%f batch=yes module_type=form compile_all=yes window_state=minimize & ECHO %%f )
+ ECHO forms compilation finished ---

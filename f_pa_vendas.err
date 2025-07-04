@@ -1,0 +1,6 @@
+FRM-30362: Initial value does not match available list elements.
+List SITUACAO
+Item: SITUACAO
+Block: TPARAM
+Form: F_PA_VENDAS
+FRM-30085: Unable to adjust form for output.
